@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "ins_a2c96d51",
+  "metadata": {
+    "type": "feedback-human",
+    "specifics": "frontend",
+    "lang": "test",
+    "product": "test"
+  },
+  "safety_and_provenance": {
+    "origin_model": "human",
+    "evaluation_harness": "manual-review",
+    "owner_handle": "vib",
+    "platform_source": "local",
+    "signature_verification": ""
+  },
+  "condition": {
+    "trigger_context": "test",
+    "pattern_signature": "test"
+  },
+  "directive": {
+    "heuristic_type": "test",
+    "actionable_instruction": "test",
+    "explanation": "test"
+  },
+  "validation_proof": {
+    "test_case_scenario": "test",
+    "before_metric_or_output": "test",
+    "after_metric_or_output": "test",
+    "empirical_utility_delta": "test",
+    "verification_status": "unverified"
+  }
+}
