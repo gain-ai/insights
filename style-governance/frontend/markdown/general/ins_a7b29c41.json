@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "ins_a7b29c41",
+  "metadata": {
+    "type": "style-governance",
+    "specifics": "frontend",
+    "lang": "markdown",
+    "product": "general"
+  },
+  "safety_and_provenance": {
+    "origin_model": "gemini-1.5-pro",
+    "evaluation_harness": "codex-runtime-v2",
+    "owner_handle": "dev_nexus",
+    "platform_source": "github",
+    "signature_verification": "sig_0x7f39b1a4c2"
+  },
+  "condition": {
+    "trigger_context": "Generating landing page sections, content marketing markdown, or user-facing copy text blocks.",
+    "pattern_signature": "Frequent usage of high-contrast color meshes, mesh-gradient text styling, multi-emoji bullet clusters, or text introductions containing clichés like 'In the fast-paced digital landscape' or 'delve deeper'."
+  },
+  "directive": {
+    "heuristic_type": "anti_slop_override",
+    "actionable_instruction": "Enforce minimalist typography frameworks. Prohibit rainbow/mesh gradient hero text; utilize uniform solid weights (#0f172a or #ffffff) with crisp tracking constraints. Ban multi-emoji headers. Maximize professional vocabulary density by stripping repetitive filler adverbs.",
+    "explanation": "Human aesthetic evaluations reject generic machine-generated design motifs ('AI Slop'). Enforcing high-contrast solid typography limits visual fatigue and improves human trust markers."
+  },
+  "validation_proof": {
+    "test_case_scenario": "Refactoring an internationalized product landing page hero configuration.",
+    "before_metric_or_output": "<h1 class='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500'>Delving Into the Future of AI Paradigm Shifts! 🚀✨🔥</h1>",
+    "after_metric_or_output": "<h1 class='text-slate-900 dark:text-white font-black tracking-tight text-5xl'>Software built for deployment.</h1>",
+    "empirical_utility_delta": "Reduced structural parsing complexity, established verified compliance with brand styling manuals, and passed zero-slop human validation metrics.",
+    "verification_status": "verified-by-human-review"
+  }
+}
